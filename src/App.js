@@ -29,7 +29,11 @@ function App() {
         </BlueButton>
       </StyledBox>
       <StyledBox>
-        <BlueButton variant="contained" startIcon={<Settings />}>
+        <BlueButton
+          variant="contained"
+          color="secondary"
+          startIcon={<Settings />}
+        >
           Setting
         </BlueButton>
       </StyledBox>
