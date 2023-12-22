@@ -4,7 +4,6 @@ import Box from "@mui/material/Box";
 const Rightbar = () => {
   return (
     <Box
-      bgcolor={"lightcoral"}
       flex={2}
       p={2}
       sx={{
@@ -14,7 +13,7 @@ const Rightbar = () => {
         },
       }}
     >
-      Right bar
+      <Box position={"fixed"}>Right bar</Box>
     </Box>
   );
 };
