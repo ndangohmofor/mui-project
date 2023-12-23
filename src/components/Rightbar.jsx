@@ -98,9 +98,7 @@ const Rightbar = () => {
         <Typography variant="h6" fontWeight={100} marginTop={3}>
           Latest conversations
         </Typography>
-        <List
-          sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}
-        >
+        <List sx={{ width: "100%", bgcolor: "background.paper" }}>
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
               <Avatar
